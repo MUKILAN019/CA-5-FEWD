@@ -1,0 +1,300 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-image: url(https://kalvium.com/wp-content/uploads/2023/04/First-Liberal-Eng-Program-1.webp);
+}
+
+.NavChild1{
+  display: flex;
+  justify-content: space-between;
+  width: 14%;
+  margin-left: 19px;
+}
+.NavChild1>img{
+  width: 20%;
+  margin-bottom: 40px;
+}
+.KB{
+  color: rgb(250, 37, 37);
+  font-weight: 1000;
+  font-size: 25px;
+  margin-top: 4px;
+}
+.Container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  height: 80px;
+}
+.searchLabel{
+  width: 100%;
+}
+.searchbar{
+  width: 40%;
+  height: 45px;
+  position: absolute;
+  right: 32%;
+  font-size:16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 0%;
+}
+.btns{
+  width: 11%;
+  position: absolute;
+  height: 46px;
+  right: 9.5%;
+  background-color: #6e5a8a;
+  box-shadow: 10px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 5%;
+}
+.btns:hover{
+    transform: scale(0.9);
+}
+.KalviumStudents{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.KalviumStudent{
+  width: 35%;
+  margin-left: 20%;
+  margin-top: 9%;
+  background-color: rgb(224, 55, 46);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  border:4px solid white;
+}
+.ContentBook{
+  width: 47%;
+  border: 1px solid;
+  height: 100px;
+  margin-top: 17%;
+  background:#e9e2d0;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left:4px solid #e85e4c;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  color: rgb(225, 45, 32);
+  border-radius: 11px;
+}
+.ContentBooks{
+  width: 48%;
+  border: 1px solid;
+  height: 100px;
+  margin-top: 17%;
+  background:#e9e2d0;
+  margin-left: 50px;
+  padding-left: 15px;
+  border-left:4px solid #e85e4c;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  color: rgb(225, 45, 32);
+  border-radius: 11px;
+}
+.Grids{
+  width: 55%;
+  position: absolute;
+  bottom:20%;
+  right: 1%;
+}
+.Homediv{
+  margin: 40px;
+  background-image: url(https://i0.wp.com/blog.kalvium.com/wp-content/uploads/2023/02/Top-10-computer-courses-after-12th-Kalvium-3.png?resize=1024%2C536&ssl=1);
+
+  -moz-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+  zoom: 1;
+  height: 500px;
+  border-radius: 30px;
+}
+.head{
+  width: 100%;
+}
+.Bg{
+  background-color: #e85e4c;
+  height: 1200px;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:20px;
+  width: 100%;
+  border-radius: 10px;
+}
+.box{
+  width: 250px;
+  height: 320px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  background-color: rgb(236, 187, 132);
+  margin-top: 12%;
+  border-radius: 20px;
+  margin-left: 30%;
+}
+.head:hover{
+  color: blue;
+}
+.hel>img{
+  width: 140px;
+  height: auto;
+}
+.hel{
+  margin-left: 22%;
+}
+.hes{
+  position: absolute;
+  top:110%;
+  color: rgb(79, 14, 210);
+}
+.reg{
+  border: 1px solid;
+  height: 550px;
+  width:42%;
+  justify-content:center;
+  margin-left: 30%;
+  margin-top: 2%;
+  background-color: #e85e4c;
+  /* background-color: #000000; */
+  border-radius: 20px;
+  color: azure;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+input{
+  width: 60%;
+  height: 48px;
+  margin-left:20% ;
+  border-radius: 15px;
+  font-size: 16px;
+  margin-top: 2%;
+}
+.reg1{
+  width: 100%;
+}
+.btn{
+  width: 20%;
+  height: 40px;
+  margin-left:40%;
+  border-radius:10px ;
+  background-color: #6e5a8a;
+  box-shadow: 10px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
+.dec{
+  text-decoration:none;
+}
+form{
+  display: grid;
+  gap: 20px;
+  margin-top: 3%;
+}
+.reg>h1{
+  margin-left: 30%;
+  margin-top: 4%;
+}
+.error{
+  margin-left: 20%;
+  color: rgb(100, 220, 231);
+  font-weight: bolder;
+  background-color: #000000;
+}
+/* Responsive */
+@media (max-width:600px) and (min-width:320px){
+  .Container{
+    width: 170%;
+    height: 100px;
+  }
+  .Bg{
+    width: 204%;
+    border: 3px solid ;
+    margin-top: 67%;
+    margin-left: -4%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 1650px;
+  }
+  .box{
+     width: 210px;
+     height: 370px;
+  }
+  .logo{
+    margin-top: 50%;
+    width: 194%;
+  }
+  .KB{
+    display: none;
+  }
+  .searchbar{
+    width: 140% ;
+    border: 4px solid;
+    left: 0%;
+    top: 20%;
+    height: 60px;
+  }
+  .btns{
+    width: 48%;
+    height: 50px;
+    right: -64%;
+  }
+  .KalviumStudents{
+    display: none;
+  }
+  .Grids{
+    display: none;
+  }
+  .KalviumStudent{
+    display: none;
+  }
+  .booksdiv{
+    width: 15%;
+  }
+  .Homediv{
+    background-image: none;
+  }
+  .hes{
+    top: 37%;
+  }
+  .hel{
+  margin-top: 20px;
+   width: 40%;
+  }
+  .hel>h4{
+    color: #253fe8;
+   font-weight: bolder;
+  }
+  .hel>p{
+    color: #057003;
+    font-weight: bolder;
+  }
+  .reg{
+    width: 130%;
+    margin-top: 30%;  
+    margin-left: 70px;
+  }
+  input{
+    width: 73%;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .btn{
+    width: 30%;
+    height: 50px;
+    margin-left: 150px;
+  }
+  .error{
+    margin-left: 13px;
+  }
+}
